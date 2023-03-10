@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 
 add_filter( 'bricks/theme_styles/controls', 'element_theme_column_gap', 10, 1);
@@ -62,7 +62,7 @@ function element_block_column_span($controls) {
 		'min'		=> 1,
 		'max'		=> 12,
 		'step'		=> 1,
-		'inline' => true,
+		'inline' 	=> true,
 		'css'         => [
 			[
 				'property'	=> '--column-span',
