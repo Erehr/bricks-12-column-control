@@ -69,12 +69,8 @@ function element_block_column_span($controls) {
 				'value'		=> '%s',
 			],
 			[
-				'property' 	=> 'width',
-				'value'		=> '100%',
-			],
-			[
-				'property' 	=> 'max-width',
-				'value'		=> 'calc((100% - 11 * var(--column-gap, 0px)) * var(--column-span) / 12 + (var(--column-span) - 1) * var(--column-gap, 0px))'
+				'property' 	=> 'flex',
+				'value'		=> '0 0 calc((100% - 11 * var(--column-gap, 0px)) * var(--column-span) / 12 + (var(--column-span) - 1) * var(--column-gap, 0px))'
 			],
 		]
 	];
